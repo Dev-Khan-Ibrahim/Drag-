@@ -1,0 +1,33 @@
+.input_elememt{
+display: flex;
+justify-content: center;
+margin-top: 100px;
+gap: 7px;
+}
+
+.taskInput{
+    border:1px solid transparent;
+border-radius: 4px;
+    background:rgb(240, 240, 240);
+height: 40px;
+width: 195px;
+transition: 0.4s ease-in-out;
+
+}
+
+
+.taskInput:focus {
+    outline: none; /* Remove the default outline */
+    border: none;}
+
+
+.taskInput:hover{
+background:rgb(219, 216, 216) ;
+transition: 0.3s ease-in-out;
+
+}
+.Create_btn{
+border-radius: 3px;
+border-color: transparent;
+background: #32a5d3;
+}

@@ -1,0 +1,35 @@
+.section {
+    padding: 20px;
+    border-radius: 8px;
+    margin: 0 10px 0 0 ; /* Add margin to create gaps */
+    margin-top: 50px;
+  }
+  
+  .todo {
+    background-color: #ffe4e1; /* Light pink */
+  }
+  
+  .inprogress {
+    background-color: #add8e6; /* Light blue */
+  }
+  
+  .completed {
+    background-color: #90ee90; /* Light green */
+  }
+  
+  .counter_div {
+    display: flex;
+    justify-content: space-between; /* Distribute items along the main axis */
+    align-items: center; /* Align items vertically */
+  }
+  
+  .counter {
+    width: 20px; /* Adjust the width of the counter circle */
+    height: 20px; /* Adjust the height of the counter circle */
+    border-radius: 50%; /* Make the counter circle shape */
+    background-color: #ccc; /* Set the background color of the counter circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

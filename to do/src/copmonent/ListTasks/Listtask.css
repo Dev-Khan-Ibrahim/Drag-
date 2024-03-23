@@ -1,0 +1,27 @@
+.sectiuon_statues {
+    display: grid;
+    grid-template-columns: repeat(3,  1fr); /* Adjust the column width as needed */
+    gap: 20px; /* Adjust the gap between grid items as needed */
+    margin-right:40px;
+    margin-left: 40px;
+  }
+  
+  .section.Todo {
+    margin-top: -9px; /* Adjust this value as needed */
+  }
+  
+  
+  
+  .task {
+    margin-bottom: 0px; /* Adjust this value to control the gap between tasks */
+  }
+  .TaskCard{
+display: flex;
+border: 1px solid #fff;
+cursor: grab;
+text-align: center;
+box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.2);
+padding: 20px 20px ;
+background: #fff;
+font-size: 16px;
+  }
